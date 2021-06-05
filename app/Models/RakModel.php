@@ -9,12 +9,7 @@ class BukuModel extends Model
 {
     use HasFactory;
 
-    protected $table = 'buku';
+    protected $table = 'rak_buku';
     public $timestamp = false;
 
-    protected $fillable = [
-        'id',
-        'judul',
-        'tahun_terbit',
-    ];
 }
